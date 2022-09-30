@@ -81,3 +81,9 @@ li {
   top: 25px;
   right: 40px;
 }
+
+#github-link {
+  position: relative;
+  left: 50%;
+  top: 100px;
+}
