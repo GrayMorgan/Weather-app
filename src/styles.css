@@ -1,0 +1,83 @@
+h1 {
+  color: black;
+  display: inline-block;
+  font-size: 2.7em;
+  left: 45px;
+  font-weight: lighter;
+}
+
+.col {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#search {
+  position: relative;
+  top: 10px;
+  padding: 9px 8px;
+}
+.submit-btn {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+}
+
+.current {
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+#date-and-time {
+  padding-left: 5px;
+  font-weight: lighter;
+}
+
+#photo-el {
+  position: relative;
+  right: 0;
+}
+
+.container {
+  position: relative;
+  top: 70px;
+  width: 500px;
+  height: 450px;
+  border: black solid 1px;
+  border-radius: 8px;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 30px;
+  height: 115px;
+  border: solid;
+  border-radius: 8px;
+}
+
+.temp {
+  position: relative;
+  left: 42%;
+  top: 100px;
+}
+.unit {
+  font-size: small;
+  position: relative;
+  top: -20px;
+}
+
+img {
+  max-width: 70px;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+}
+.weather-details {
+  position: relative;
+  top: 25px;
+  right: 40px;
+}
